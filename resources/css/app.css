@@ -1,0 +1,28 @@
+@tailwind base;
+@tailwind components;
+
+
+
+
+
+input
+{
+    @apply py-2 pl-2;
+}
+
+label, input
+{
+    @apply w-full text-xl;
+}
+
+.label-input-div
+{
+    @apply w-full space-y-1;
+}
+
+.submit-button
+{
+    @apply bg-green-700 text-xl text-center px-6 py-2 rounded text-white uppercase tracking-widest;
+}
+
+@tailwind utilities;
